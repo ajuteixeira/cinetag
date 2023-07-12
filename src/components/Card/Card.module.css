@@ -1,0 +1,22 @@
+.container {
+  width: 202px;
+  padding: 0 0 1em 0;
+  display: flex;
+  margin-top: .5em;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--gray);
+}
+
+.cover {
+  width: 100%;
+}
+
+.container h2,
+.favorite {
+  padding: 0 1em;
+}
+
+.favorite {
+  width: 25px;
+}
