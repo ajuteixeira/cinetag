@@ -1,8 +1,8 @@
 .container {
-  width: 202px;
+  width: 282px;
   padding: 0 0 1em 0;
   display: flex;
-  margin-top: .5em;
+  margin: .5em;
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--gray);
@@ -18,5 +18,5 @@
 }
 
 .favorite {
-  width: 25px;
+  width: 20px;
 }
