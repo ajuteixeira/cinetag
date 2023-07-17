@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import FavoritesProvider from "contexts/Favorites";
 import Home from "./pages/Home";
 import Favorites from "pages/Favorites";
 import Header from "components/Header";
@@ -10,10 +11,12 @@ function AppRoutes() {
     <BrowserRouter>
       <Header />
       <Container>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/favorites" element={<Favorites />}></Route>
-        </Routes>
+        <FavoritesProvider>
+          <Routes>
+            <Route path="/" element={<Home />}></Route>
+            <Route path="/favorites" element={<Favorites />}></Route>
+          </Routes>
+        </FavoritesProvider>
       </Container>
       <Footer />
     </BrowserRouter>
