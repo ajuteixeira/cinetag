@@ -30,7 +30,7 @@ export function useFavoriteContext() {
     }
 
     //se for repetido, retira o item da lista
-    newList = favorite.filter((fv) => fv.id !== newFavorite.id);
+    newList = favorite.filter((fav) => fav.id !== newFavorite.id);
     return setFavorite(newList);
   }
   return {
