@@ -13,7 +13,7 @@ function Header() {
         <HeaderLink url="./">
           Home
         </HeaderLink>
-        <HeaderLink url="./">
+        <HeaderLink url="./favorites">
           Favorites
         </HeaderLink>
       </nav>
