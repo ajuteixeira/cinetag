@@ -6,6 +6,7 @@ import Header from "components/Header";
 import Container from "components/Container";
 import Footer from "components/Footer";
 import Player from "pages/Player";
+import NotFound from "pages/NotFound";
 
 function AppRoutes() {
   return (
@@ -17,6 +18,7 @@ function AppRoutes() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/favorites" element={<Favorites />}></Route>
             <Route path="/:id" element={<Player />}></Route>
+            <Route path="*" element={<NotFound />}></Route>
           </Routes>
         </FavoritesProvider>
       </Container>
