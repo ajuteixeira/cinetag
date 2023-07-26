@@ -18,7 +18,7 @@ function Home() {
     <>
       <Banner image="home" />
       <Title>
-        <h1>A place to store your movies and videos!</h1>
+        <h1>A place to store your movies :)</h1>
       </Title>
       <section className={styles.container}>
         {videos.map((video) => {

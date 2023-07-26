@@ -1,4 +1,13 @@
 .container section {
-  margin: 2em 20em;
+  margin: 2em auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
+}
+
+@media only screen and (min-width: 1230px) {
+  .container section {
+    width: 1200px;
+  }
 }
