@@ -8,15 +8,15 @@
 
 ✦ Fake API: [[www]](https://my-json-server.typicode.com/ajuteixeira/cinetag-api)
 
-<img src="https://i.ibb.co/6JnhDdD/Captura-de-tela-2023-07-26-175636.png" style="width:100%;">
+<img src="https://i.postimg.cc/L43LHd6t/home.png" style="width:100%;">
 
 # ✦ Favorite the movies you like the most:
 
-<img src="https://i.ibb.co/ZS17p3J/Captura-de-tela-2023-07-26-175752.png" style="width:100%;">
+<img src="https://i.postimg.cc/sxmhKW06/fav.png" style="width:100%;">
 
 # ✦ Play and watch:
 
-<img src="https://i.ibb.co/VMbT62t/Captura-de-tela-2023-07-26-175856.png" style="width:100%;">
+<img src="https://i.postimg.cc/GtdDkKzT/play.png" style="width:100%;">
 
  
 # ✦ Live-preview
